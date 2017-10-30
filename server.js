@@ -1,8 +1,8 @@
 /*
 Deploying to `now`. Example:
-$ now add secret server-url https://piratepanda.now.sh
-$ now add secret jwt-secret some-secret-here
-$ now add secret oauth-cookie-secret some-other-secret-here
+$ now secret add server-url https://piratepanda.now.sh
+$ now secret add jwt-secret some-secret-here
+$ now secret add oauth-cookie-secret some-other-secret-here
 $ now -e SERVER_URL=@server-url -e JWT_SECRET=@jwt-secret -e OAUTH_COOKIE_SECRET=@oauth-cookie-secret --public
 $ now alias hapipanda-wpyfhyutrv piratepanda
 */
